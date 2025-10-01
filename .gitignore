@@ -1,0 +1,47 @@
+# -------------------------
+# Node.js (applies to frontend & backend)
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs
+*.log
+logs/*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# -------------------------
+# Build outputs
+# -------------------------
+dist/
+build/
+.cache/
+.next/
+out/
+
+# React specific
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/.env.local
+frontend/.DS_Store
+
+# Backend specific (Express, Node APIs, etc.)
+backend/.env
+backend/.DS_Store
+
+# -------------------------
+# IDE / OS files
+# -------------------------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
